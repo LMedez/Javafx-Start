@@ -1,0 +1,4 @@
+rootProject.name = 'Example2'
+include 'main_project'
+include 'other_module'
+

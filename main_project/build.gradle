@@ -1,0 +1,11 @@
+plugins {
+    id 'application'
+}
+
+mainClassName = 'org.luc.assets.main.Main'
+
+// se implementan los modulos que se necesiten de este proyecto
+dependencies {
+    implementation project(':other_module')
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+}
